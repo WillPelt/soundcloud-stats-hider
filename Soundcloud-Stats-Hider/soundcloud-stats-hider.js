@@ -18,7 +18,7 @@ function startHiding(){
     x=0;
     startInterval = setInterval(() => {
         hideStats();
-        console.log("Waiting for Soundcloud Stats..." + x);
+        //console.log("Waiting for Soundcloud Stats..." + x);
     }, 10);
 }
 
